@@ -1,0 +1,45 @@
+.topic{
+    font-family: "微软雅黑";
+    width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    .header{
+        width: 100%;
+        height: 45px;
+        padding: 5px;
+       .headImg{
+            float: left;
+            width: 40px;
+            border-radius: 100px;
+        }
+       .headName{
+           float: left;
+           padding: 0 5px;
+           font-weight: bold;
+           line-height: 35px;
+       } 
+    }
+    .time{
+        padding: 0 10px;
+        color: #999;
+        font-size: 12px;
+    }
+    .topicContent{
+        color: #333;
+        padding: 5px 10px;
+    }
+    .reply{
+        width: 95%;
+        margin: 10px auto;
+        border: 1px solid #aaa;
+        .log{
+            border-bottom: 1px solid #aaa;
+            color: #ff2000;
+            padding: 5px;
+        }
+        .replyDetail{
+            color:#0070CC;
+            padding: 5px;
+        }
+    }
+}
